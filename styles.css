@@ -71,6 +71,10 @@ a {
     color: var(--main-text-color);
 }
 
+i {
+    margin-left: 1rem;
+}
+
 img {
     display: block;
     width: 100%;
@@ -188,6 +192,13 @@ img {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
 }
 
+.tec-used {
+    display: flex;
+    padding: 0 0 1rem 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
@@ -234,7 +245,7 @@ img {
 
 .contact-section-header > p {
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 200;
     color: var(--secondary-text-color);
 }
